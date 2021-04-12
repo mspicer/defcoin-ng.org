@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>DEFCOIN</title>
+<meta name="description" content="">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<div id="wrap">
+<!--[if lt IE 7]>
+            <p class="chromeframe">Why? Seriously? Why are using an outdated browser? <a href="http://browsehappy.com/">Upgrade your browser right now.</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to actually experience this site.</p>
+        <![endif]-->
+
+<div class="header-container" id="masthead">
+  <header class="wrapper clearfix">
+    <div class="logo"><img src="img/logo@2x.png" alt="Logo Alt Text" /></div>
+    <h3>The official Hacker Crypto Currency</h3>
+    <p>DEFCOIN is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.</p>
+  </header>
+</div>
+<div class="main-container">
+  <div class="main wrapper clearfix">
+    <div class="info-container">
+      <div class="second">
+        <article class="last">
+          <h1>So I have this paper wallet thing. Now what?</h1>
+          <p>You're probably here because you are the proud(?) recipient of a paper DEFCOIN wallet.  DEFCOIN is a <a href="http://lmgtfy.com/?q=digital"><strong>digital</strong></a> currency, so now you need to convert those precious analog coins into a usable digital form.  If you don't know what <a href="http://defcoin.org">DEFCOIN</a> is you should probably figure that part out first.</p>
+          <p>The first thing you will need is a wallet to store your coins.  There are pre-compiled wallet apps for <a href="http://defcoin.org/defcoin-0.22.0-linux-amd64.tar.gz">Linux</a>, <a href="http://defcoin.org/defcoin-qt-osx.dmg">OSX</a>, and <a href="http://defcoin.org/defcoin-0.22.2-win32.zip">Windows</a> available at the main <a href="http://defcoin.org">DEFCOIN</a> page. You can also download the source from <a href="https://github.com/tiabguls/defcoin">GitHub</a> and compile it yourself.  There is an Android wallet available from the <a href="https://play.google.com/store/apps/details?id=com.jculb.wallet">Google Play store</a>, but it lacks the ability to import private keys.
+          </p>
+        </article>
+      </div>
+    </div>
+    <div class="first">
+      <article>
+       
+   <h3>Step 1 - Install and run a wallet app</h3>
+        <ul class="clearfix stores">
+            <li><a href="http://defcoin.org/defcoin-qt-osx.dmg"><img src="img/apple.png" alt="Download App" /></a></li>
+            <li><a href="http://defcoin.org/defcoin-0.22.0-linux-amd64.tar.gz"><img src="img/linux.png" alt="Download App" /></a></li>
+            <li><a href="http://defcoin.org/defcoin-0.22.2-win32.zip"><img src="img/windows.png" alt="Download App" /></a></li>
+        </ul>
+        <p>It doesn't matter which OS you use.  The instructions are going to be the same for each.</p>
+        <p><a href="img/1.png"><img src="img/1.png"></a></p>
+        <p>When you launch the app for the first time you will see a blank wallet with a zero balance.  The app will immediately attempt to connect to other computers over the Internet and download the DEFCOIN blockchain.  This will take a few minutes and will probably make your laptop fans spin up.  Don't panic:  You can start the next step while the blockchain is downloaded and verified.</p>
+
+	<h3>Step 2 - Open the Debug Console</h3>
+      <p>Click on the "Help" menu, then "Debug Window".  Then click on the "Console" button.</p>      
+      <p><a href="img/2.png"><img src="img/2.png"></a></p>
+      <p><a href="img/3.png"><img src="img/3.png"></a></p>
+      </article>
+      <article>
+        
+	<h3>Step 3 - Import the *PRIVATE* key from the paper wallet</h3>
+        <p>Use the "importprivkey" command to import the privkey.  The private key is the one on the INSIDE of the wallet.  It's long, so you might want to use the QR code to convert it to text.</p>
+        <p><b>UPDATE: </b><a href="https://twitter.com/lizzz_818">Lizzz Farrell</a> has informed us that you must first enter your passphrase using the "walletpassphrase" command if you have encrypted your wallet.</p>
+        <p><a href="img/5.png"><img src="img/5.png"></a></p>
+        <p>(Don't bother trying to import the key in the image above... the coins are long gone.)</p>
+      </article>
+      <article>
+        
+   <h3>Step 4 - Profit!</h3>
+        <p>We'll skip the usual ???? step and go straight to the money shot.</p>
+        <p><a href="img/6.png"><img src="img/6.png"></a></p>
+      </article>
+      <article>
+        <h1>Now what?</h1>
+
+      <p>You should now have a non-zero number of DEFCOINS in your wallet.  You can now exchange them for goods and services.  For maximum portability we recommend using the Android wallet (courtesy of Justin Culbertson).  You can't import wallets into the Android wallet because blockchains are huge and will fill up your phone.  You can, however, transfer some or all of the coins from your desktop/laptop wallet to your mobile wallet and start spending.
+      </p> 
+
+      <p>We would appreciate it if you tweeted any funny and/or interesting transactions to <a href="https://twitter.com/defcoin">@defcoin</a> so we can establish a rough exchange rate.  If you're sending a beer/DFC number please include the type of beer.  If it was swag please tell us the name of the vendor.  If it was a sex act please send pictures to <a href="https://twitter.com/kingtuna">@kingtuna</a> and <a href="https://twitter.com/shitroamersays">@shitroamersays</a>.</p>
+
+      </article>
+  </div>
+</div>
+</div>
+<div class="quote-container">
+  <div class="lipup"></div>
+  <div class="main wrapper clearfix">
+    <div class="info-bottom">
+      <div class="second">
+        <article>
+          <h1>DEFCOINS</h1>
+          <p>You're welcome.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="footer-container">
+    <div class="lipup"></div>
+    <footer class="wrapper clearfix">
+      <h1>Reach out, say hello.</h1>
+      <p>Most of us are not that evil. </p>
+      <ul class="social-link clearfix">
+        <li><a href="https://github.com/tiabguls/defcoin">(</a></li>
+        <li><a href="https://twitter.com/defcoin">t</a></li>
+      </ul>
+      <hr/>
+      <ul>
+        <li><a href="m">Contact</a></li>
+        <li><a href="https://github.com/tiabguls/defcoin">GitHub</a></li>
+        <li><a href="https://twitter.com/defcoin">Twitter</a></li>
+        <li><a href="http://sourceforge.net/p/bitcoin/mailman/bitcoin-development/">Mailing List</a></li>
+      </ul>
+      <br/>
+      <ul>
+        <li><a href="#">Copyright 2009-2013 Bitcoin Developers</a></li>
+        <li><a href="#">Copyright 2011-2013 DEFCOIN Developers</a></li>
+      </ul>
+    </footer>
+  </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script> 
+<script defer src="js/jquery.flexslider-min.js"></script> 
+<script defer src="js/backstretch.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
